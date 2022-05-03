@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In Tailwind we can define custom colors using [] */
+
+body {
+    @apply bg-[#09090A] text-zinc-100
+}
